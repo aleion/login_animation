@@ -50,14 +50,19 @@ body{
     background-color: #8DB881;
     color:white;
 }
-
-
-.registration-menu{
-   display: none;
+.registration-option{
+    transition: all 2s ease-in;
+}
+.login-form{
+    transition: all 2s ease-out;
 }
 
-.login-form{
-    
+.active{
+   display: block;
+}
+
+.inactive{
+    display: none;
 }
 
 form{
